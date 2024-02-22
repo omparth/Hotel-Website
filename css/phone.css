@@ -1,0 +1,111 @@
+/* Navigation Bar */
+#navbar {
+    flex-direction: column;
+
+
+}
+
+#navbar ul li a {
+    padding: 0px 7px;
+}
+
+#logo img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+/* Home */
+
+#home {
+
+    height: 370px;
+    padding: 3px 10px;
+}
+
+#home p {
+    font-size: 14px;
+}
+
+#home::before {
+    height: 470px;
+}
+
+/* service */
+#service {
+    display: flex;
+    /* in css we gave flex property to this element so when the dimensions gets lower of web the service boxes are overlapping to avoid that we use coulmn direction of flex */
+    flex-direction: column;
+
+
+
+}
+
+
+
+/* client */
+#client {
+    flex-wrap: wrap;
+
+
+}
+
+.client-section::before {
+    height: 75%;
+}
+
+#client {
+    flex-wrap: wrap;
+    height: 500px;
+
+}
+
+
+#client img {
+
+    width: 93px;
+    padding: 1px 19px;
+
+}
+
+
+
+
+
+
+/* contact us */
+
+
+#contact-box form {
+    width: 80%;
+}
+
+
+
+
+/* footer */
+
+footer {
+    font-size: 0.5rem;
+}
+
+/* Utility */
+
+.h-primary {
+    font-size: 20px;
+
+}
+
+.btn {
+    font-size: 13px;
+    padding: 4px 8px;
+}
+
+.btn2 {
+
+    font-size: 13px;
+    padding: 4px 8px;
+    width: 50%;
+}

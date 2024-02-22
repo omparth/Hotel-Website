@@ -1,0 +1,23 @@
+#service .box img {
+    height: 67px;
+}
+
+#home{
+
+    height: 313px;
+    padding: 3px 10px;
+}
+#home::before{
+    height: 470px;
+}
+.h-primary {
+    font-size: 10px;
+
+}
+
+#client{
+    flex-wrap: wrap;    
+}
+.client-section::before {
+    height: 55%;
+}
